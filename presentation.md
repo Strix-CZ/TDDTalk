@@ -2,9 +2,9 @@
 
 - Kent Beck (XP), Uncle Bob (Rober C Martin)
 
-	1. Test      <---\       Red
-	2. Code          |      Green, Commit
-	3. Refactor   ---/      Green, Commit
+  1. Test      <---\       Red
+  2. Code          |      Green, Commit
+  3. Refactor   ---/      Green, Commit
 
 
 # Rules by Uncle Bob
@@ -32,12 +32,12 @@
 
 - E.g.
 
-	  Remove unnecessary code
-	| Remove unnecessary complexity
-	| Remove duplication (e.g. extract method)
-	| Make the code easier to read (e.g. rename)
-	| Increase cohesion
-	| Decrease coupling
+	    Remove unnecessary code
+	  | Remove unnecessary complexity
+	  | Remove duplication (e.g. extract method)
+	  | Make the code easier to read (e.g. rename)
+	  | Increase cohesion
+	  | Decrease coupling
 
 - It should be a tiny change that we do every 5 minutes,
   not a project that you will plan to do next week.
@@ -70,8 +70,8 @@
 - What Kent Beck meant by duplication?
   Among other things also duplication between production code and tests.
 
-	if (values.length == 1)
-    	return values[0] == values[1];
+  if (values.length == 1)
+      return values[0] == values[1];
 
 - By choosing next test you choose how big change you will implement.
 
@@ -87,9 +87,9 @@
 - Try it as an excercise
 
     Pair!
-  	One tests,
-  	the other implements,
-  	both refactor.
+    One tests,
+    the other implements,
+    both refactor.
 
 - Then use the good parts behind TDD...
 
