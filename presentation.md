@@ -54,12 +54,19 @@
 
 # Example
 	
-	- https://github.com/Strix-CZ/TDDDemo
+	- Have a look at commits in:
+	  https://github.com/Strix-CZ/TDDDemo
+
+	  Clone the repo or have a look in your browser:
+	  https://github.com/Strix-CZ/TDDDemo/commits/master
+
+	- The example follows Uncle Bob's rules.
 
 
 # Observations
 
-	- Duplication between production code and test
+	- What Kent Beck meant by duplication?
+	  Among other things also duplication between production code and tests.
 		if (values.length == 1)
 	    	return values[0] == values[1];
 
