@@ -2,9 +2,9 @@
 
 - Kent Beck (XP), Uncle Bob (Rober C Martin)
 
-	  1. Test      <---\       Red
-	  2. Code          |      Green, Commit
-	  3. Refactor   ---/      Green, Commit
+	   Test      <---\       Red
+	   Code          |      Green, Commit
+	   Refactor   ---/      Green, Commit
 
 
 # Rules by Uncle Bob
@@ -70,8 +70,8 @@
 - What Kent Beck meant by duplication?
   Among other things also duplication between production code and tests.
 
-	  if (values.length == 1)
-	      return values[0] == values[1];
+	    if (values.length == 1)
+	        return values[0] == values[1];
 
 - By choosing next test you choose how big change you will implement.
 
