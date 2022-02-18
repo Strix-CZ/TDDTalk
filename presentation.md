@@ -2,9 +2,9 @@
 
 - Kent Beck (XP), Uncle Bob (Rober C Martin)
 
-- Test      <---\       Red
-- Code          |      Green, Commit
-- Refactor   ---/      Green, Commit
+	1. Test      <---\       Red
+	2. Code          |      Green, Commit
+	3. Refactor   ---/      Green, Commit
 
 
 # Rules by Uncle Bob
@@ -30,12 +30,14 @@
 	- no new feature
 	- no new test
 
-- Remove unnecessary code
-| Remove unnecessary complexity
-| Remove duplication (e.g. extract method)
-| Make the code easier to read (e.g. rename)
-| Increase cohesion
-| Decrease coupling
+- E.g.
+
+	  Remove unnecessary code
+	| Remove unnecessary complexity
+	| Remove duplication (e.g. extract method)
+	| Make the code easier to read (e.g. rename)
+	| Increase cohesion
+	| Decrease coupling
 
 - It should be a tiny change that we do every 5 minutes,
   not a project that you will plan to do next week.
@@ -67,6 +69,7 @@
 
 - What Kent Beck meant by duplication?
   Among other things also duplication between production code and tests.
+
 	if (values.length == 1)
     	return values[0] == values[1];
 
@@ -82,6 +85,7 @@
 - Yes
 
 - Try it as an excercise
+
     Pair!
   	One tests,
   	the other implements,
