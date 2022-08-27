@@ -1,3 +1,5 @@
+This repository contains 'slides' used for my talk at [Recurse Center](https://www.recurse.com/).
+
 # TDD
 
 - Kent Beck (XP), Uncle Bob (Rober C Martin)
@@ -57,12 +59,40 @@
 # Example
 
 - Have a look at commits in:
-  https://github.com/Strix-CZ/TDDDemo
+  [Strix-CZ/TDDDemo]([https://github.com/Strix-CZ/TDDDemo)
 
   Clone the repo or have a look in your browser:
-  https://github.com/Strix-CZ/TDDDemo/commits/master
+  [Strix-CZ/TDDDemo/commits/master](https://github.com/Strix-CZ/TDDDemo/commits/master)
 
 - The example follows Uncle Bob's rules.
+
+```java
+		// Not following TDD:
+    public boolean isFair(int[] nums) {
+        int sum = 0;
+        boolean even = true;
+        
+        for (int i=0; i<nums.length; ++i) {
+            sum += even ? nums[i] : -nums[i];
+            even = !even;
+        }
+        
+        return sum == 0;
+    }
+ ```
+
+
+```java
+		// Following TDD
+    public boolean isFair(int[] values)
+    {
+        int evenMinusOddSum = 0;
+        for (int value : values)
+            evenMinusOddSum = value - evenMinusOddSum;
+
+        return evenMinusOddSum == 0;
+    }
+```
 
 
 # Observations
