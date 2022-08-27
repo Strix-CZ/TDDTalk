@@ -59,7 +59,7 @@ This repository contains 'slides' used for my talk at [Recurse Center](https://w
 # Example
 
 - Have a look at commits in:
-  [Strix-CZ/TDDDemo]([https://github.com/Strix-CZ/TDDDemo)
+  [Strix-CZ/TDDDemo](https://github.com/Strix-CZ/TDDDemo)
 
   Clone the repo or have a look in your browser:
   [Strix-CZ/TDDDemo/commits/master](https://github.com/Strix-CZ/TDDDemo/commits/master)
